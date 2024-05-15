@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>My List App</title>
+</head>
+<body>
+<div class="boxtotal">
+    <header id="headerr" class="header">
+        <h1>Lista de Tarefas</h1>
+        <button id="newList">Criar Lista</button>
+    </header>
+    <main>
+        <section id="modal" class="modal hidden">
+            <form id="newListForm">
+                <label for="inputTitle">Título:</label>
+                <input type="text" id="inputTitle" placeholder="Insira o título da sua nova lista" required>                
+                <button type="submit">Criar</button>
+            </form>
+        </section>
+        <section id="listContainer"></section>
+    </main>
+</div>
+</body>
+
+</html>
